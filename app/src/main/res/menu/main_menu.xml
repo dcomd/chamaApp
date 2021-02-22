@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_cofee"
+        app:showAsAction="ifRoom"
+        android:title="Café"
+        android:icon="@drawable/ic_cafe"/>
+
+    <item
+        android:id="@+id/navigation_bar"
+        android:title="Bares"
+        android:icon="@drawable/ic_bar"/>
+
+    <item
+        android:id="@+id/navigation_rest"
+        android:title="Restaurantes"
+        android:icon="@drawable/ic_restaurante"/>
+
+</menu>
